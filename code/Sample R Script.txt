@@ -1,0 +1,8 @@
+library(ggplot2)
+print(head(r_input_table))
+p<-ggplot(r_input_table, aes(x=AEBODSYS)) +
+geom_bar() + 
+ggtitle("AE_BAR")+coord_flip()
+
+
+ggsave("AE_BAR.pdf",p,path="/nfsshare/sashls/home/phuse40/PHUSE_HOW_2024")

@@ -3,4 +3,4 @@
 cas;
 caslib _ALL_ assign;
 
-libname sdtm '/nfsshare/sashls/home/<userid>/PHUSE_HOW_2024/data';
+libname sdtm '/data/compute-landingzone/Home/prdesa/from_git/data';
